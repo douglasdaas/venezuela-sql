@@ -1,21 +1,8 @@
 venezuela-sql
 =============
 
-Base de datos de la división político territorial de Venezuela. Se incluyen estados, ciudades, municipios y parroquias de Venezuela en formato .sql.
+Base de datos de la división político territorial de Venezuela. Se incluyen estados, municipios y parroquias de Venezuela.
 
-La lista de estados tiene su código ISO 3166-2 correspondiente.
+Modelo en una sola entidad `Lugar`
 
-
-Referencias
------------
-
-1. Instituto Nacional de Estadística de Venezuela: http://www.ine.gov.ve/
-2. Wikipedia http://es.wikipedia.org/
-
-###Contacto
-
-Para colaborar o hacer correcciones, puedes contactarme:
-
-Web: http://marydenobrega.com/
-E-mail: denobrega.mary@gmail.com
-Twitter: @Marydn
+Diseñado para manejador PostgreSQL, solo hay que cambiar los tipos de datos de la entidad `Lugar`  correspondientes al manejador que se este utilizando.
